@@ -27,3 +27,4 @@ if __name__ == '__main__':
     cleaned = clean(args.respondent_contact,args.respondent_other)
     cleaned.to_csv(args.output, index=False)
 
+    print("The shape of output file is:",cleaned.shape)
